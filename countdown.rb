@@ -3,7 +3,7 @@
 def countdown(integer)
   while integer >= 0 do
     puts("#{integer} SECOND#{"S" if integer != 1}")
-    integer--
+    integer -= 1
   end
   return "HAPPY NEW YEAR!"
 end
