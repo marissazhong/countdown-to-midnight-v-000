@@ -2,10 +2,10 @@
 
 def countdown(integer)
   while integer >= 0 do
-    puts "#{integer} SECOND#{"S" if integer != 1}"
+    puts("#{integer} SECOND#{"S" if integer != 1}")
     integer--
   end
-    return "HAPPY NEW YEAR!"
+  return "HAPPY NEW YEAR!"
 end
 
 countdown(10)
